@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+table
+{
+    background-color: rgb(141, 209, 205);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table th
+{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+table td
+{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.row
+{
+    display: flex;
+
+}
+
+span
+{
+    width: 200px;
+    height: 100px;
+    border: 3px solid rgb(77, 219, 0);
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.span1
+{
+    border-radius: 5px;
+}
+.span2
+{
+    border-radius: 10px;
+}
+.span3
+{
+    border-radius: 25px;
+}
+.span4
+{
+    border-radius: 15px;
+}
+.span5
+{
+    border-radius: 3px;
+}
+.span6
+{
+    border-radius: 25px;
+}
+.span7
+{
+    border-radius: 50%;
+}
+.span8
+{
+    border-radius: 3px;
+}
+.span9
+{
+    border-radius: 3px 25px 5px 25px;
+}

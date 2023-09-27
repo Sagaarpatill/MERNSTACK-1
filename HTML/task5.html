@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body>
+<style>
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+    h1
+    {
+        margin: 10px;
+        margin-top: 0px;
+    }
+    input
+    {
+        outline: none;
+        border: none;
+    }
+    table td
+    {
+        padding: 5px;
+    }
+    button
+    {
+        margin-top: 20px;
+    }
+
+    .declare
+    {
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    .login
+    {
+        align-self: flex-end;
+    }
+
+</style>
+
+    <div class="main">
+        <h1>Task-5</h1>
+        <form action="">
+            <h1>Registration form</h1>
+            <table border="1">
+                <tr class="element">
+                    <td>First Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr class="element">
+                    <td>Last Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr class="element">
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr class="element">
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr class="element">
+                    <td>Re-enter Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr class="element">
+                    <td>Gender</td>
+                    <td>
+                    <span class="gender-option">
+                        <input type="radio" id = "male" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" value="Female">
+                        <label for="female">Female</label>
+                    </span>
+                    </td>
+                </tr>
+                <tr class="element">
+                    <td>Age</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr class="element">
+                    <td>Phone Number</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr class="element">
+                    <td>Address</td>
+                    <td><textarea cols="50"></textarea></td>
+                </tr>
+                <tr class="element">
+                    <td>State</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr class="element">
+                    <td>Country</td>
+                    <td>
+                    <select name="country" id="country">
+                        <option value="default" selected>Choose your country</option>
+                        <option value="india">India</option>
+                    </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Languages known
+                    </td>
+                    <td>
+                        <input type="checkbox" name="english" id="english">
+                        <label for="english">English</label>
+                        <input type="checkbox" name="kannada" id="kannada">
+                        <label for="kannada">Kannada</label>
+                        <input type="checkbox" name="Hindi" id="Hindi">
+                        <label for="Hindi">Hindi</label>
+                        <input type="checkbox" name="Telugu" id="Telugu">
+                        <label for="Telugu">Telugu</label>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="declare">
+                <input type="checkbox" name="declare" id="declare">
+                <label for="declare">Hereby I declare all the given details are true.</label>
+            </div>
+            <div class="login">
+                Log in to <a href="#">Ethnus</a> website
+            </div>
+        </form>
+        <button type="submit">Register</button>
+    </div>
+</body>
+</html>

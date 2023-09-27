@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .heading
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px;
+        }
+
+        form
+        {
+            width: 100vw;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main
+        {
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+        .element
+        {
+            display: flex;
+            padding: 5px;
+            justify-content: space-between;
+            width: 30vw;
+            margin: 10px;
+
+        }
+        input
+        {
+           
+            width: 200px;
+            padding: 5px;
+        }
+        span
+        {
+            width: 100px;
+        }
+
+        select
+        {
+            padding: 5px;
+            width: 215px;
+        }
+
+        button
+        {
+            width: auto;
+            padding: 5px;
+        }
+
+    </style>
+    <div class="heading">
+        <h1>Task-4</h1>
+    </div>
+    <form>
+        <div class="main">
+        <div class="element">
+            <span>Full Name:</span>
+            <input type="text">
+        </div>
+        <div class="element">
+            <span>Username:</span>
+            <input type="text">
+        </div>
+        <div class="element">
+            <span>Password:</span>
+            <input type="password">
+        </div>
+        <div class="element">
+            <span>Re Password:</span>
+            <input type="password">
+        </div>
+        <div class="element">
+            <span>Address:</span>
+            <input type="text">
+        </div>
+        <div class="element">
+            <span>Age:</span>
+            <input type="text">
+        </div>
+        <div class="element">
+            <span>Gender:</span>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            </span>
+        </div>
+        <div class="element">
+            <button>Save</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
